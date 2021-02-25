@@ -15,7 +15,7 @@ public class exe7BalancedBraces {
 
 	public static boolean isBalanced(String str) {
 		
-		Deque<Character> stack = new ArrayDeque<Character>();
+		ArrayDeque<Character> stack = new ArrayDeque<Character>();
 		
  		for(int i=0;i<str.length();i++) {
  			char s =str.charAt(i);
